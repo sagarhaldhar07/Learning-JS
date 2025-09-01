@@ -1,5 +1,8 @@
 // Declare and initialization
 // String can be enclosed by '' , "" and ``
+let txt = new String("hello ji");
+console.log(txt); // [String: 'hello ji'] string class ka ek object create karta hai
+
 let text1 = "Hello";
 console.log(text1); // Hello
 
@@ -21,3 +24,6 @@ console.log(text4); // Hello Dear Nikita Hello From Sagar
 // If we only needs to print the combined string we can use comma (,)
 // Comma ka ek nature hai ki wo agli value print karne se pehle ek space by default de deta hai
 console.log(text1, text2, text3); // Hello Dear Nikita Hello From Sagar
+
+// concat method se string apas me add ho jati hai
+console.log(text1.concat(text2, text3)); // HelloDear NikitaHello From Sagar

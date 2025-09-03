@@ -3,6 +3,9 @@ let x = 5;
 let y = 10;
 console.log(`The sum of ${x} and ${y} is ${x + y}`); // The sum of 5 and 10 is 15
 
+const str = "Nikita";
+console.log(`Hello!! ${str}`);
+
 // Difference between == and ===
 // == compares only value
 // During == comparison if one of a value is string, then JS convert another value into string and then convert them
